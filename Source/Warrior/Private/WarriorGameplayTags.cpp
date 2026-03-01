@@ -6,6 +6,9 @@
 namespace WarriorGameplayTags
 {
 	/** Input Tags **/
-	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(InputTag_Move, "InputTag.Move")
-	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(InputTag_Look, "InputTag.Look")
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(InputTag_Move, "InputTag.Move");
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(InputTag_Look, "InputTag.Look");
+
+	/**/
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Player_Weapon_Axe, "Player.Weapon.Axe");
 }
