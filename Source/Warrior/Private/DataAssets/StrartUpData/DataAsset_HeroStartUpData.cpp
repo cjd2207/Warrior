@@ -5,18 +5,13 @@
 #include "AbilitySystem/Abilities/WarriorGameplayAbility.h"
 #include "AbilitySystem/WarriorAbilitySystemComponent.h"
 
-bool FWarriorHeroAbilitySet::IsVaid() const
-{
-    return InputTag.IsValid() && AbilityToGrant;
-}
-
 void UDataAsset_HeroStartUpData::GiveToAbilitySystemComponent(UWarriorAbilitySystemComponent* InASCToGive, int32 ApplyLevel)
 {
     Super::GiveToAbilitySystemComponent(InASCToGive, ApplyLevel);
 
     for (const FWarriorHeroAbilitySet& AbilitySet : HeroStartUpAbilitySets)
     {
-        if (!AbilitySet.IsVaid()) continue;
+        if (!AbilitySet.IsValid()) continue;
 
         FGameplayAbilitySpec AbilitySpec(AbilitySet.AbilityToGrant);
         AbilitySpec.SourceObject = InASCToGive->GetAvatarActor();
