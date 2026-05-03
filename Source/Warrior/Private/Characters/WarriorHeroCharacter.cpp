@@ -11,7 +11,7 @@
 #include "Components/Input/WarriorInputComponent.h"
 #include "WarriorGameplayTags.h"
 #include "AbilitySystem/WarriorAbilitySystemComponent.h"
-#include "DataAssets/StrartUpData/DataAsset_HeroStartUpData.h"
+#include "DataAssets/StartUpData/DataAsset_HeroStartUpData.h"
 #include "Components/Combat/HeroCombatComponent.h"
 
 #include "WarriorDebugHelper.h"

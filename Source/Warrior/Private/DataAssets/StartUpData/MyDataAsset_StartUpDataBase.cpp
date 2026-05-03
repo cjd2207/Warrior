@@ -1,7 +1,7 @@
 // Christopher Davis All Rights reserved
 
 
-#include "DataAssets/StrartUpData/MyDataAsset_StartUpDataBase.h"
+#include "DataAssets/StartUpData/MyDataAsset_StartUpDataBase.h"
 #include "AbilitySystem/WarriorAbilitySystemComponent.h"
 #include "AbilitySystem/Abilities/WarriorGameplayAbility.h"
 

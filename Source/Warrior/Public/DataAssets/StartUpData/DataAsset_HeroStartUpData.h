@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "DataAssets/StrartUpData/MyDataAsset_StartUpDataBase.h"
+#include "DataAssets/StartUpData/MyDataAsset_StartUpDataBase.h"
 #include "WarriorTypes/WarriorStructTypes.h"
 #include "DataAsset_HeroStartUpData.generated.h"
 
