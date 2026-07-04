@@ -32,4 +32,6 @@ namespace WarriorGameplayTags
 	/** Shared Tags **/
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Event_MeleeHit, "Shared.Event.MeleeHit");
 
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_SetByCaller_BaseDamage, "Shared.SetByCaller.BaseDamage");
+
 }
