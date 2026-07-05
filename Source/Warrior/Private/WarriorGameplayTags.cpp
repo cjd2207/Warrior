@@ -26,6 +26,9 @@ namespace WarriorGameplayTags
 
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Player_Status_JumpToFinish, "Player.Status.JumpToFinish");
 
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Light, "Player.SetByCaller.AttackType.Light");
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Player_SetByCaller_AttackType_Heavy, "Player.SetByCaller.AttackType.Heavy");
+
 	/** Enemy Tags **/
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Enemy_Weapon, "Enemy.Weapon");
 
