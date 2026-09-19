@@ -18,6 +18,8 @@ class WARRIOR_API UWarriorFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
+public:
+
 	static UWarriorAbilitySystemComponent* NativeGetWarriorASCFromActor(AActor* InActor);
 
 	UFUNCTION(BlueprintCallable, Category = "Warrior|FunctionLibrary")

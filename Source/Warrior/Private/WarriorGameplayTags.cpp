@@ -39,10 +39,14 @@ namespace WarriorGameplayTags
 
 	/** Shared Tags **/
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_HitReact, "Shared.Abiltiy.HitReact");
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Ability_Death, "Shared.Abiltiy.Death");
 
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Event_MeleeHit, "Shared.Event.MeleeHit");
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Event_HitReact, "Shared.Event.HitReact");
 
 	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_SetByCaller_BaseDamage, "Shared.SetByCaller.BaseDamage");
+
+	WARRIOR_API UE_DEFINE_GAMEPLAY_TAG(Shared_Status_Dead, "Shared.Status.Dead");
+
 
 }
