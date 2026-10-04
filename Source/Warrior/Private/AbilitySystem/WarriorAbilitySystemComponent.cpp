@@ -38,7 +38,7 @@ void UWarriorAbilitySystemComponent::GrantHeroWeaponAbilities(const TArray<FWarr
 
 		FGameplayAbilitySpec AbilitySpec(AbilitySet.AbilityToGrant->GetDefaultObject<UGameplayAbility>(), ApplyLevel);
 		AbilitySpec.SourceObject = GetAvatarActor();
-		AbilitySpec.DynamicAbilityTags.AddTag(AbilitySet.InputTag);
+		AbilitySpec.GetDynamicSpecSourceTags().AddTag(AbilitySet.InputTag);
 		OutGrantedAbilitySpecHandles.AddUnique(GiveAbility(AbilitySpec));
 	}
 }

@@ -1,4 +1,4 @@
-i// Christopher Davis All Rights reserved
+// Christopher Davis All Rights reserved
 
 
 #include "Interfaces/PawnUIInterface.h"
