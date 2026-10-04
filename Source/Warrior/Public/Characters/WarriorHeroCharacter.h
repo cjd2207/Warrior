@@ -36,6 +36,7 @@ protected:
 
 	//~ Begin IAbilityPawnUIInterface Interface.
 	virtual UPawnUIComponent* GetPawnUIComponent() const override;
+	virtual UHeroUIComponent* GetHeroUIComponent() const override;
 	//~ End IAbilityPawnUIInterface Interface.
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
