@@ -31,6 +31,7 @@ protected:
 
 	//~ Begin IAbilityPawnUIInterface Interface.
 	virtual UPawnUIComponent* GetPawnUIComponent() const override;
+	virtual UEnemyUIComponent* GetEnemyUIComponent() const override;
 	//~ End IAbilityPawnUIInterface Interface.
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat")
